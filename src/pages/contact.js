@@ -5,14 +5,25 @@ import Head from '../components/head'
 function Contact() {
     return (
         <Layout>
-        <Head title="Contact"/>
-            <h1>Contact Title</h1>
-            <p>
-                Andrew Mead:
-               <a href="https://twitter.com/andrew_j_mead" 
-                 target="_blank"> 
-                 Twitter </a>
-            </p>
+            <Head title="Contact" />
+            <h1>Contact Info</h1>
+            <ul>
+                <li>
+                    Twitter:
+                        <a href="https://twitter.com">
+                        MockTitterHandle</a>
+                </li>
+                <li>
+                    Github:
+                        "<a href="https://github.com/">
+                        GithubUserName</a>
+                </li>
+                <li>
+                    Email:
+                        <a href="mailto:mock_email_account@mail.com">
+                        mock_email_account@mail.com</a>
+                </li>
+            </ul>
         </Layout>
     )
 }

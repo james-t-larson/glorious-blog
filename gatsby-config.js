@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: 'The Glorious Blog',
-    author: 'James Larson'
+    author: 'Timothy Larson'
   },
 
   plugins: [
