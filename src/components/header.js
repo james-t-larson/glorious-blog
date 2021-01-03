@@ -14,14 +14,14 @@ function Header() {
     `)
 
     return (
-        <div>
+        <div >
             <header className={headerStyles.header}>
                 <h1>
                     <Link to="/" className={headerStyles.title}>
                        {data.site.siteMetadata.title} 
                     </Link>
                 </h1>
-                <nav>
+                <nav className={headerStyles.navContainer}>
                     <ul className={headerStyles.navList}>
                         <li>
                             <Link 
